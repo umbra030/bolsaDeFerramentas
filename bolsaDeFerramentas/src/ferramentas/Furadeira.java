@@ -1,6 +1,6 @@
 package ferramentas;
 
-public class Furadeira extends FerramentaElétrica {
+public class Furadeira extends FerramentaElétrica implements Validavel {
 
     private static final double TAMANHO_MIN = 200.0;   // mm
     private static final double TAMANHO_MAX = 400.0;   // mm

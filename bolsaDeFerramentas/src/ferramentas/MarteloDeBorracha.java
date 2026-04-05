@@ -1,6 +1,6 @@
 package ferramentas;
 
-public class MarteloDeBorracha extends Martelo {
+public class MarteloDeBorracha extends Martelo implements Validavel {
 
     private static final double TAMANHO_MIN = 200.0;   // mm
     private static final double TAMANHO_MAX = 300.0;   // mm

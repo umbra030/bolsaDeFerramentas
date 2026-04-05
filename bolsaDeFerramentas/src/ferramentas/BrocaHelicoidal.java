@@ -1,14 +1,14 @@
 package ferramentas;
 
-public class BrocaHelicoidal extends Broca{
+public class BrocaHelicoidal extends Broca implements Validavel {
 	
-	private static final double TAMANHO_MIN = 1.0;
-    private static final double TAMANHO_MAX = 13.0;
-    private static final double PESO_MIN = 5.0;
-    private static final double PESO_MAX = 100.0;
+	private static final double TAMANHO_MIN = 5;
+    private static final double TAMANHO_MAX = 25;
+    private static final double PESO_MIN = 0.05;
+    private static final double PESO_MAX = 0.25;
 
 
-	public BrocaHelicoidal(String nome, double tamanho, double peso) {
+	public BrocaHelicoidal(double tamanho, double peso) {
 		super("Broca helicoidal (Torção)", tamanho, peso);
 	}
 	

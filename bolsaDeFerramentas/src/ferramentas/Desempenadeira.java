@@ -1,6 +1,6 @@
 package ferramentas;
 
-public class Desempenadeira extends FerramentaPedreiro {
+public class Desempenadeira extends FerramentaPedreiro implements Validavel {
 
     private static final double TAMANHO_MIN = 250.0;   // mm
     private static final double TAMANHO_MAX = 400.0;   // mm
